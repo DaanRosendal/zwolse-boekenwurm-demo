@@ -13,16 +13,16 @@ class CategorySeeder extends Seeder
     public function run()
     {
         // Categories are seeded automatically in the BookSeeder
-//        DB::table('categories')->insert([
-//            'name' => 'Romans',
-//        ]);
-//
-//        DB::table('categories')->insert([
-//            'name' => 'Thrillers',
-//        ]);
-//
-//        DB::table('categories')->insert([
-//            'name' => 'Kinderboeken',
-//        ]);
+        DB::table('categories')->insert([
+            'name' => 'Romans',
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Thrillers',
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Kinderboeken',
+        ]);
     }
 }
