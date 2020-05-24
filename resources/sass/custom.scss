@@ -1,0 +1,18 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/books.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  min-height: 100%;
+}
